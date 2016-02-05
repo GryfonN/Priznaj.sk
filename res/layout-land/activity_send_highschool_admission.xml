@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- duplicita v layout-large-land,layout-xlarge-land -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_green"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/activity_send_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <EditText
+            android:id="@+id/activity_send_admission_text"
+            style="@style/activity_send_admission_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ellipsize="start"
+            android:gravity="left|center_horizontal" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/activity_send_thanks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/activity_send_admission_thanks"
+            style="@style/activity_send_admission_label"
+            android:layout_centerInParent="true"
+            android:text="@string/activity_send_admission_thanks" >
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>

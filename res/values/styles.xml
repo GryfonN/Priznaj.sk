@@ -1,0 +1,125 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- VALUES-V11 COPY !!! -->
+    <style name="PriznajTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/PriznajActionBar</item>
+    </style>
+
+    <!-- ActionBar style -->
+    <!-- VALUES-V11 COPY !!! tu som zmazal MenuTextStyle a android:logo -->
+    <style name="PriznajActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/action_bar_background</item>
+        <!-- pre kompatibilitu -->
+        <item name="background">@drawable/action_bar_background</item>
+    </style>
+
+    <!-- Application -->
+    <!-- ################################################################################### -->
+    <style name="PButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/drawer_uni</item>
+    </style>
+
+    <style name="ListViewPager">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:background">@drawable/listview_pager_bg</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="PProgressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- SendScreen -->
+    <!-- ################################################################################### -->
+    <!-- style pre komponenty troch fragmentov v SendAdmission fragment aktivite -->
+    <style name="activity_send_admission_label">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">@color/activity_send_admission_label</item>
+        <item name="android:textSize">@dimen/activity_send_admission_label_text</item>
+    </style>
+
+    <!-- VALUES-V11 COPY !!! -->
+    <style name="activity_send_admission_spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/activity_send_admission_spinner_height</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_marginLeft">@dimen/activity_send_admission_spinner_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_send_admission_spinner_margin</item>
+        <item name="android:popupBackground">@android:color/black</item>
+    </style>
+
+    <style name="activity_send_admission_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/activity_send_admission_text_background</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">@string/activity_send_admission_edit_text_hint</item>
+        <item name="android:inputType">textCapSentences|textAutoCorrect|textMultiLine</item>
+        <item name="android:textColor">@color/activity_send_admission_text</item>
+        <item name="android:layout_marginLeft">@dimen/activity_send_admission_text_margin_side</item>
+        <item name="android:layout_marginRight">@dimen/activity_send_admission_text_margin_side</item>
+        <item name="android:ellipsize">start</item>
+        <item name="android:gravity">left|center_horizontal</item>
+    </style>
+
+    <style name="activity_send_admission_button_send">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/activity_send_admission_button_send_margin</item>
+        <item name="android:layout_marginBottom">@dimen/activity_send_admission_button_send_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_send_admission_text_margin_side</item>
+        <item name="android:layout_marginRight">@dimen/activity_send_admission_text_margin_side</item>
+        <item name="android:text">@string/activity_send_admission_send_button_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/drawer_uni</item>
+    </style>
+
+    <!-- FavoriteScreen -->
+    <!-- ################################################################################### -->
+    <style name="activity_favorite_fade_animation">
+        <item name="@android:windowEnterAnimation">@anim/activity_favorite_popup_show</item>
+        <item name="@android:windowExitAnimation">@anim/activity_favorite_popup_hide</item>
+    </style>
+
+    <!-- CoreAdmission -->
+    <!-- ################################################################################### -->
+    <!-- http://www.mokasocial.com/2011/07/sexily-styled-toggle-buttons-for-android/ -->
+    <style name="admission_favorite_toggle_button">
+        <item name="android:background">@drawable/admission_favorite_toggle_btn_bg</item>
+        <item name="android:textOn"></item>
+        <item name="android:textOff"></item>
+        <item name="android:disabledAlpha">?android:attr/disabledAlpha</item>
+    </style>
+
+</resources>

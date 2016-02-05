@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LAYOUT-LAND SPECIFIC COPY a -LARGE/XLARGE + -LARGE/XLARGE-LAND pre tablety -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/drawer_uni_normal"
+    android:orientation="vertical" >
+
+    <sk.gryfonnlair.priznaj.view.ui.AdaptHeightImageView
+        android:id="@+id/activty_tutorial_fragment_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/activty_tutorial_fragment_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/activty_tutorial_fragment_image"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/activity_tutorial_label_margin"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/activty_tutorial_fragment_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activty_tutorial_fragment_image"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/activty_tutorial_fragment_button_finish_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/white"
+        android:padding="3dp"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/activty_tutorial_fragment_button_finish"
+            style="@style/PButton"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/activity_tutorial_button_complete_text"
+            android:textSize="24sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

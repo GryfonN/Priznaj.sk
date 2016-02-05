@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:priznaj="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_menu"
+        android:icon="@drawable/ic_menu_overflow"
+        android:orderInCategory="1"
+        android:title="@string/action_moreovewrflow"
+        priznaj:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_sendAdmission"
+                android:icon="@drawable/ic_menu_send"
+                android:orderInCategory="1"
+                android:title="@string/action_sendAdmission"/>
+            <item
+                android:id="@+id/action_favorite"
+                android:icon="@drawable/ic_menu_favorite"
+                android:orderInCategory="2"
+                android:title="@string/action_favorite"/>
+            <item
+                android:id="@+id/action_search"
+                android:icon="@drawable/ic_menu_search"
+                android:orderInCategory="3"
+                android:title="@string/action_searchAdmission"/>
+            <item
+                android:id="@+id/action_report"
+                android:icon="@drawable/ic_menu_report"
+                android:orderInCategory="4"
+                android:title="@string/action_report"/>
+            <item
+                android:id="@+id/action_about"
+                android:icon="@drawable/ic_menu_about"
+                android:orderInCategory="5"
+                android:title="@string/action_informations"/>
+        </menu>
+    </item>
+
+</menu>

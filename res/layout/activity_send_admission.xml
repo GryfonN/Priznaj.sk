@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/sk.gryfonnlair.priznaj"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/viewpager_bg"
+    android:orientation="vertical" >
+
+    <sk.gryfonnlair.priznaj.view.send.tools.ScrollableViewPager
+        android:id="@+id/activity_send_admission_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <sk.gryfonnlair.priznaj.view.ui.LinePageIndicator
+        android:id="@+id/activity_send_admission_viewpager_indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_green"
+        android:padding="5dip"
+        app:gapWidth="@dimen/line_pager_indicator_gapWidth"
+        app:lineWidth="@dimen/line_pager_indicator_lineWidth"
+        app:selectedColor="@color/line_pager_indicator_selected"
+        app:strokeWidth="@dimen/line_pager_indicator_strokeWidth"
+        app:unselectedColor="@color/line_pager_indicator_unselected" />
+
+</LinearLayout>

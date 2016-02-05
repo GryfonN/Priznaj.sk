@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application -->
+    <!-- ################################################################################### -->
+    <color name="line_pager_indicator_selected">#D35454</color>
+    <color name="line_pager_indicator_unselected">#FFFFFF</color>
+    <color name="background_green">#384C4C</color>
+    <color name="listview_background_gray">#DFDFDF</color>
+    <color name="listview_element_admission_text">#000000</color>
+    <color name="listview_element_separator">#CCCCCC</color>
+    <color name="listview_pager_bg_color">#AA666666</color>
+    <color name="action_bar_btn_normal">#00000000</color>
+    <color name="action_bar_btn_focused">#AF1E1E</color>
+    <color name="action_bar_btn_pressed">#AF1E1E</color>
+    <color name="action_bar_text_hint">#f1cbcb</color>
+    <color name="favorite_button_bg">#D35454</color>
+    <color name="new_admission_bg">#F1C40F</color>
+
+    <!-- NavigationDrawer -->
+    <!-- ################################################################################## -->
+    <color name="drawer_background">#333333</color>
+    <color name="drawer_child_item_background">#666666</color>
+    <color name="drawer_group_toggle_trans_background">#80222222</color>
+    <color name="drawer_b_normal">#33B5E5</color>
+    <color name="drawer_b_selected">#0099CC</color>
+    <color name="drawer_g_normal">#AA66CC</color>
+    <color name="drawer_g_selected">#9933CC</color>
+    <color name="drawer_hs_normal">#99CC00</color>
+    <color name="drawer_hs_selected">#669900</color>
+    <color name="drawer_uni_normal">#D35454</color>
+    <color name="drawer_uni_selected">#AF1E1E</color>
+
+    <!-- SplashScreen -->
+    <!-- ################################################################################### -->
+    <color name="activity_splash_background">#000000</color>
+
+    <!-- SendScreen -->
+    <!-- ################################################################################### -->
+    <color name="activity_send_admission_label">#FFFFFF</color>
+    <color name="activity_send_admission_text">#000000</color>
+    <color name="activity_send_admission_text_background">#FFFFFF</color>
+
+    <!-- SendScreen Rules -->
+    <!-- ################################################################################### -->
+    <color name="activity_send_rules_text">#FFFFFF</color>
+
+    <!-- SearchScreen -->
+    <!-- ################################################################################### -->
+    <color name="activity_search_label">#FFFFFF</color>
+
+    <!-- FavoriteScreen -->
+    <!-- ################################################################################### -->
+    <color name="activity_favorite_btn_pressed">#AAAF1E1E</color>
+    <color name="activity_favorite_btn_normal">#00000000</color>
+    <color name="activity_favorite_popup_bg_color">#AA666666</color>
+    <color name="activity_favorite_popup_text_color">#FFFFFF</color>
+
+</resources>

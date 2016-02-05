@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application -->
+    <!-- ################################################################################### -->
+    <string name="app_name">Priznaj.sk</string>
+    <string name="app_reporting_mail">gryfonnlair@gmail.com</string>
+    <string name="app_reporting_hint_text">Vaša pripomienka k aplikácií&#8230;</string>
+
+    <!-- Menu/ActionBar -->
+    <!-- ################################################################################### -->
+    <string name="action_sendAdmission">Pridať priznanie</string>
+    <string name="action_moreovewrflow">Viac</string>
+    <string name="action_favorite">Obľúbené</string>
+    <string name="action_searchAdmission">Hľadať priznanie</string>
+    <string name="action_report">Pripomienky</string>
+    <string name="action_informations">O aplikácií</string>
+
+    <!-- CoreScreen -->
+    <!-- ################################################################################### -->
+    <string name="activity_core_footer_download">Stiahnuť ďalšie.</string>
+    <string name="activity_core_footer_no_another">Koniec listu.</string>
+
+    <!-- SplashScreen -->
+    <!-- ################################################################################### -->
+    <string name="activity_splash_logo_content_description">logo Priznaj.sk</string>
+    <string name="activity_splash_loading">Sťahujem priznania&#8230;</string>
+
+    <!-- AboutScreen -->
+    <!-- ################################################################################### -->
+    <string name="activity_about_button_tutorial_text">Sprievodca</string>
+    <string name="activity_about_label_hello">Ahoj!</string>
+    <string name="activity_about_text1">Pravdepodobne ako aj Ty, aj my, tím priznaj.sk, sme študenti. Vysokoškoláci, ktorí sa rozhodli dať vám všetkým možnosť slobodne sa priznať ku veciam, o ktorých doteraz nikto nevedel, pobaviť sa príhodami či tajomstvami iných a možno aj spôsob, ako sa počas náročnej školy vyventilovať. Stránka Priznaj.sk vznikla na jar 2013 a uzrela svetlo sveta, aby vám spríjemňovala voľné chvíle, nudné prednášky či dlhé večery na internátoch.</string>
+    <string name="activity_about_text2">Veríme, že sa poriadne zabavíte a taktiež nejakým priznaním prispejte do našej zbierky.</string>
+    <string name="activity_about_text3">Vyjdite s farbou aj vy a priznajte sa!</string>
+    <string name="activity_about_label_developer">Vývojári:</string>
+    <string name="activity_about_imageview_gryfonnlair_description">GryfonN Lair, raise the best ideas</string>
+    <string name="activity_about_imageview_diffusion_description">Diffusion, creativity without borders</string>
+
+    <!-- ReportScreen -->
+    <!-- ################################################################################### -->
+    <string name="activity_report_label">Ďakujeme Vám za Vašu pomoc pri zlepšovaní služieb Priznaj.sk.</string>
+    <string name="activity_report_text">Ak ste v aplikácií Priznaj.sk našli chybu alebo máte pripomienku či nápad ako zlepšiť túto aplikáciu dajte nám prosím vedieť.</string>
+    <string name="activity_report_text2">Taktiež budeme radi ak našej aplikácií pridáte recenziu.</string>
+    <string name="activity_report_button_text">Odoslať email</string>
+    <string name="activity_report_button_text2"> Google Play </string>
+    <string name="activity_report_imageview_separator_description">separator</string>
+    <string name="activity_report_imageview_idea_description">idea</string>
+
+    <!-- SendScreen -->
+    <!-- ################################################################################### -->
+    <string name="activity_send_admission_edit_text_hint">Vaše priznanie &#8230;</string>
+    <string name="activity_send_admission_send_button_text">Odoslať</string>
+    <string name="activity_send_admission_girlsboys_label">GIRLS/BOYS</string>
+    <string name="activity_send_admission_girlsboys_spinner_gender_prompt">Vyberte pohlavie&#8230;</string>
+    <string name="activity_send_admission_university_label">PRIZNAJ</string>
+    <string name="activity_send_admission_university_spinner_uni_prompt">Vyberte školu&#8230;</string>
+    <string name="activity_send_admission_highschool_label">STREDNÉ</string>
+    <string name="activity_send_admission_highschool_spinner_region_prompt">Vyberte kraj&#8230;</string>
+    <string name="activity_send_admission_highschool_spinner_county_prompt">Vyberte okres&#8230;</string>
+    <string name="activity_send_admission_highschool_spinner_highschool_prompt">Vyberte školu&#8230;</string>
+    <string name="activity_send_info_button_content_description">Pravidlá</string>
+    <string name="activity_send_admission_thanks">Ďakujeme</string>
+
+    <!-- SendScreen Rules -->
+    <!-- ################################################################################### -->
+    <string name="activity_send_rules_label1">UBEHLO PÁR DNÍ A TY SI SVOJE SUPROVÉ PRIZNANIE STÁLE NIKDE NEVIDEL??</string>
+    <string name="activity_send_rules_label2">Možu za tým byť dva dôvody:\n
+- Stále spracuvávame a schvaľujeme tvoje priznanie, môže to trvať aj viac ako päť dní\n
+- Porušilo PRAVIDLÁ:</string>
+    <string name="activity_send_rules_rule1">1. Priznania sú anonymné - neuvádzajte v nich konkrétne mená.</string>
+    <string name="activity_send_rules_rule2">2. Priznania by mali byť zaujímavé, nevšedné, vtipné, výstredné alebo šokujúce.</string>
+    <string name="activity_send_rules_rule3">3. Snažte sa Vaše priznanie napísať čo najpútavejšie.</string>
+    <string name="activity_send_rules_rule4">4. Priznania musia tématicky zapadnúť do príslušnej kategórie nášho portálu.</string>
+    <string name="activity_send_rules_rule5">5. Priznania nesmú obsahovať rasistický alebo iný nelegálny obsah, reklamu a iné nezmysly.</string>
+    <string name="activity_send_rules_rule6">6. Snažte sa vyjadrovať spisovne a používať diakritku. </string>
+    <string name="activity_send_rules_rule7">7. Každé priznanie prechádza schvaľovaním a môže byť zamietnuté. </string>
+    <string name="activity_send_rules_rule8">8. Nepíšte tam toľko tých smajlov na konci priznaní. </string>
+    <string name="activity_send_rules_rule9">9. Posledné slovo pri schvaľovaní príspevkov majú admini.</string>
+
+    <!-- SearchScreen -->
+    <!-- ################################################################################### -->
+    <string name="activity_search_searchbox_hint">Hľadané slovo&#8230;</string>
+    <string name="activity_search_searchbox_msg_invalid">Zadajte minimálne 3 znaky</string>
+    <string name="activity_search_searchbutton_content_description">Hľadať</string>
+    <string name="activity_search_message_no_sas">Viac som nenašiel.</string>
+    <string name="activity_search_fragment_left_arrow">««</string>
+    <string name="activity_search_fragment_right_arrow">»»</string>
+
+    <!-- TutorialScreen -->
+    <!-- ################################################################################### -->
+    <string name="tutorial_screen_intro_label">Priznaj.sk</string>
+    <string name="tutorial_screen_intro_text">Víta Vás android aplikácia portálu Priznaj.sk, ktorá Vám umožní mať všetky priznania na dosah ruky. Tento sprievodca Vám ukáže jej základne výhody.</string>
+    <string name="tutorial_screen_core_label">Vlastnosti</string>
+    <string name="tutorial_screen_core_text">Prezerajte si priznania z rôznych kategórií portálu. Využite prídavné funkcie android aplikácie, ktoré ju oproti portálu jednoznačne zvýhodňujú.</string>
+    <string name="tutorial_screen_social_label">Funkcie</string>
+    <string name="tutorial_screen_social_text">Komentujte zaujímavé priznania prostredníctvom facebooku, zdielajte pomocou viacerých sociálnych aplikácií alebo pridávajte medzi svoje obľúbené.</string>
+    <string name="tutorial_screen_send_label">Nové priznania</string>
+    <string name="tutorial_screen_send_text">Pošlite nám aj vaše priznania. Všetky priznania sú samozrejme 100% anonymné.</string>
+    <string name="tutorial_screen_favorite_label">Obľúbené priznania</string>
+    <string name="tutorial_screen_favorite_text">Označte si svoje obľúbené priznania a prezerajte si ich v spoločnom zozname všektých priznaní utriedených podľa času označenia.</string>
+    <string name="tutorial_screen_search_label">Vyhľadávanie</string>
+    <string name="tutorial_screen_search_text">Vyhľadajte si priznanie, ktoré ste už raz čítali v aplikácii podľa jeho zaradenia.</string>
+    <string name="tutorial_screen_offline_label">Offline</string>
+    <string name="tutorial_screen_offline_text">Aj ked nie ste "online", stále je možné si prezerať všetky priznania, ktoré ste už raz stiahli.</string>
+    <string name="activity_tutorial_button_back_text">Späť</string>
+    <string name="activity_tutorial_button_next_text">Ďalej</string>
+    <string name="activity_tutorial_button_complete_text">Dokončiť</string>
+
+    <!-- FavoriteScreen -->
+    <!-- ################################################################################### -->
+    <string name="activity_favorite_undo_button_content_desc">Vrátiť</string>
+    <string name="activity_favorite_admission_deleted">Priznanie zmazané.</string>
+    <string name="activity_favorite_admissions_deleted">Priznania zmazané. (%d)</string>
+    <string name="activity_favorite_message_no_fas">Nemáte žiadne obľúbené priznania.</string>
+    <string name="activity_favorite_message_no_other_fas">Nemáte ďalšie obľúbené priznania.</string>
+    <string name="activity_favorite_viewholder_tag_key_hack">hack:)</string>
+
+    <!-- Navigation Drawer -->
+    <string-array name="menu_array">
+        <item>Najnovšie</item>
+        <item>Vysoké školy</item>
+        <item>Stredné školy</item>
+        <item>Girls and Boys</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Duplicita v xlarge-land a large-land -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_green"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/activity_send_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/activity_send_admission_label"
+            style="@style/activity_send_admission_label"
+            android:text="@string/activity_send_admission_girlsboys_label" />
+
+        <Spinner
+            android:id="@+id/activity_send_admission_spinner_gb"
+            style="@style/activity_send_admission_spinner" />
+
+        <EditText
+            android:id="@+id/activity_send_admission_text"
+            style="@style/activity_send_admission_text" />
+
+        <Button
+            android:id="@+id/activity_send_admission_button_send"
+            style="@style/activity_send_admission_button_send" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/activity_send_thanks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/activity_send_admission_thanks"
+            style="@style/activity_send_admission_label"
+            android:layout_centerInParent="true"
+            android:text="@string/activity_send_admission_thanks" >
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>

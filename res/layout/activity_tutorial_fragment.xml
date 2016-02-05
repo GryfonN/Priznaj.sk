@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LAYOUT-LAND SPECIFIC COPY a -LARGE/XLARGE + -LARGE/XLARGE-LAND pre tablety -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_tutorial_padding" >
+
+    <sk.gryfonnlair.priznaj.view.ui.AdaptHeightImageView
+        android:id="@+id/activty_tutorial_fragment_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/activity_tutorial_padding" />
+
+    <TextView
+        android:id="@+id/activty_tutorial_fragment_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/activity_tutorial_label_margin"
+        android:gravity="center"
+        android:textSize="@dimen/activity_tutorial_label" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_margin="@dimen/activity_tutorial_text_margin"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/activty_tutorial_fragment_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:gravity="center"
+            android:textSize="@dimen/activity_tutorial_text" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/activty_tutorial_fragment_button_finish"
+        style="@style/PButton"
+        android:gravity="center"
+        android:text="@string/activity_tutorial_button_complete_text"
+        android:visibility="gone" />
+
+</LinearLayout>

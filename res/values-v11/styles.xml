@@ -1,0 +1,33 @@
+<resources>
+
+    <style name="PriznajTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/PriznajActionBar</item>
+        <!-- pre kompatibilitu -->
+        <item name="actionBarStyle">@style/PriznajActionBar</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="android:actionMenuTextAppearance">@style/PriznajActionBar.MenuTextStyle</item>
+    </style>
+
+    <!-- ActionBar style -->
+    <!-- VALUES-V14 COPY !!! tu chyba PriznajActionBar.MenuTextStyle -->
+    <style name="PriznajActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/action_bar_background</item>
+        <!-- pre kompatibilitu -->
+        <item name="background">@drawable/action_bar_background</item>
+        <item name="android:logo">@drawable/ic_menu_home</item>
+    </style>
+
+    <style name="activity_send_admission_spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/activity_send_admission_spinner_height</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:spinnerMode">dialog</item>
+        <item name="android:layout_marginLeft">@dimen/activity_send_admission_spinner_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_send_admission_spinner_margin</item>
+        <item name="android:popupBackground">@android:color/black</item>
+    </style>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/listview_background_gray"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/activity_main_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/listview_background_gray"
+        android:cacheColorHint="@android:color/transparent"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:dividerHeight="@dimen/listview_divider_height"
+        android:fadingEdge="none"
+        android:paddingTop="@dimen/listview_padding"
+        android:scrollbars="none" />
+
+    <TextView
+        android:id="@+id/activity_main_pager"
+        style="@style/ListViewPager" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/drawer_background"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/drawer_lay_child_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="@dimen/drawer_child_margin_left"
+        android:layout_marginRight="@dimen/drawer_layout_padding"
+        android:background="@drawable/drawer_child_item_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/drawer_tvDrawerChildItemName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/drawer_item_text_padding"
+            android:paddingLeft="@dimen/drawer_item_text_padding"
+            android:paddingTop="@dimen/drawer_item_text_padding"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/drawer_childNewAdmissionsCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/drawer_count_bg"
+            android:paddingRight="@dimen/drawer_item_number_padding"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

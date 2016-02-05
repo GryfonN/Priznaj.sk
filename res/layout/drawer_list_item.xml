@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_lay_group_root"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/drawer_item_button_size"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/drawer_layout_padding"
+    android:paddingRight="@dimen/drawer_layout_padding"
+    android:paddingTop="@dimen/drawer_layout_padding" >
+
+    <LinearLayout
+        android:id="@+id/drawer_expandCollapseGroupsImg"
+        android:layout_width="@dimen/drawer_item_button_size"
+        android:layout_height="@dimen/drawer_item_button_size"
+        android:clickable="true" >
+
+        <ToggleButton
+            android:id="@+id/drawer_expandCollapseGroupsButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawer_group_toggle_btn_bg"
+            android:checked="false"
+            android:disabledAlpha="?android:attr/disabledAlpha"
+            android:textOff=""
+            android:textOn="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/drawer_layGroups"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/drawer_item_button_size"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/drawer_GroupItemName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/drawer_item_text_padding"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/drawer_item_group_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/drawer_new_admissions_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/drawer_count_bg"
+            android:paddingRight="@dimen/drawer_item_number_padding"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

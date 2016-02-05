@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sk.gryfonnlair.priznaj"
+    android:versionCode="9"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.wifi" />
+
+    <application
+        android:name="sk.gryfonnlair.priznaj.PriznajApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/PriznajTheme" >
+        <receiver android:name="sk.gryfonnlair.priznaj.control.rest.NetworkStateReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity
+            android:name="sk.gryfonnlair.priznaj.view.core.tools.AdMobHackActivity"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Holo.NoActionBar" />
+        <activity
+            android:name="sk.gryfonnlair.priznaj.view.splash.SplashActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="sk.gryfonnlair.priznaj.view.core.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="sk.gryfonnlair.priznaj.view.send.SendAdmissionActivity"
+            android:configChanges="keyboardHidden"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustNothing" >
+        </activity>
+        <activity
+            android:name="sk.gryfonnlair.priznaj.view.send.RulesActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustNothing" >
+        </activity>
+        <activity
+            android:name="sk.gryfonnlair.priznaj.view.favorite.FavoriteAdmissionActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="sk.gryfonnlair.priznaj.view.search.SearchAdmissionActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustNothing" >
+        </activity>
+        <activity
+            android:name="sk.gryfonnlair.priznaj.view.report.ReportActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="sk.gryfonnlair.priznaj.view.tutorial.TutorialActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="sk.gryfonnlair.priznaj.view.about.AboutActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="sk.gryfonnlair.priznaj.view.comment.FacebookCommentActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

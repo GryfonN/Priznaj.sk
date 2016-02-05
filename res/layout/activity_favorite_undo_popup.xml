@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/activity_favorite_popup_bg"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingRight="8dp" >
+
+    <TextView
+        android:id="@+id/activity_favorite_popup_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:textColor="@color/activity_favorite_popup_text_color"
+        android:textSize="@dimen/activity_favorite_popup_text" />
+
+    <ImageButton
+        android:id="@+id/activity_favorite_popup_button_undo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@drawable/activity_favorite_undo_btn_bg"
+        android:contentDescription="@string/activity_favorite_undo_button_content_desc"
+        android:paddingRight="8dp"
+        android:src="@drawable/ic_dialog_undo"
+        android:textColor="@color/activity_favorite_popup_text_color" />
+
+</LinearLayout>

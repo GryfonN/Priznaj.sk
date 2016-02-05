@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|center_vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_vertical"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_about_padding" >
+
+        <TextView
+            android:id="@+id/activity_about_label_hello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:padding="@dimen/activity_about_label_padding"
+            android:text="@string/activity_about_label_hello"
+            android:textSize="@dimen/activity_about_label" />
+
+        <TextView
+            android:id="@+id/activity_about_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:padding="@dimen/activity_about_text_padding"
+            android:text="@string/activity_about_text1"
+            android:textSize="@dimen/activity_about_text" />
+
+        <TextView
+            android:id="@+id/activity_about_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:padding="@dimen/activity_about_text_padding"
+            android:text="@string/activity_about_text2"
+            android:textSize="@dimen/activity_about_text" />
+
+        <TextView
+            android:id="@+id/activity_about_text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:padding="@dimen/activity_about_text_padding"
+            android:text="@string/activity_about_text3"
+            android:textSize="@dimen/activity_about_text" />
+
+        <Button
+            android:id="@+id/activity_about_button_tutorial"
+            style="@style/PButton"
+            android:text="@string/activity_about_button_tutorial_text" />
+
+        <TextView
+            android:id="@+id/activity_about_label_developer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:padding="@dimen/activity_about_label_padding"
+            android:text="@string/activity_about_label_developer"
+            android:textSize="@dimen/activity_about_label" />
+
+        <ImageView
+            android:id="@+id/activity_about_banner_gryfonnlair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/white"
+            android:contentDescription="@string/activity_about_imageview_gryfonnlair_description"
+            android:layout_marginBottom="@dimen/activity_about_text_padding"
+            android:src="@drawable/activity_about_gryfonnlair_banner" />
+
+        <ImageView
+            android:id="@+id/activity_about_banner_diffusion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/white"
+            android:contentDescription="@string/activity_about_imageview_diffusion_description"
+            android:src="@drawable/activity_about_diffusion_banner" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pouzite colors,dimenzie popupu -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/activity_favorite_popup_bg"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingRight="8dp" >
+
+    <TextView
+        android:id="@+id/activity_search_footer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="@string/activity_search_message_no_sas"
+        android:textColor="@color/activity_favorite_popup_text_color"
+        android:textSize="@dimen/activity_favorite_popup_text" />
+
+</LinearLayout>
